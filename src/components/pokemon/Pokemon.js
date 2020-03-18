@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { Component } from 'react';
 import Axios from 'axios';
 
@@ -220,7 +221,9 @@ export default class Pokemon extends Component {
           <div className="card-body">
             <div className="row align-items-center">
               <div className=" col-md-3 ">
+                // eslint-disable-next-line jsx-a11y/alt-text
                 <img
+                    a="pokemon"
                   src={this.state.imageUrl}
                   className="card-img-top rounded mx-auto mt-2"
                 />
