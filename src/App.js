@@ -4,6 +4,8 @@ import Footer from './components/layout/Footer';
 import Dashboard from './components/layout/Dashboard';
 import Pokemon from './components/pokemon/Pokemon.js';
 
+//Fiz uma mudança no editor de código
+
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css'
